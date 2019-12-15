@@ -11,14 +11,6 @@
 	padding-left: 20px;
 }
 
-#new-button.hidden {
-	display: none;
-}
-
-#new-input-text.hidden {
-	display: none;
-}
-
 .note-item-list {
 	display: flex;
 	flex-direction: row;
@@ -28,4 +20,8 @@
 #delete-button {
 	border-radius: 50%;
 	background: red;
+}
+
+.hidden {
+	display: none;
 }
