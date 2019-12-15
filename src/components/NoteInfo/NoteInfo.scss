@@ -1,0 +1,14 @@
+.NoteInfo{
+	display:flex;
+	flex-direction: column;
+	padding: 5px 5px;
+}
+
+.NoteInfo~.NoteInfo {
+	border-top: 1px solid #ccc;
+}
+
+.bottom-note {
+	font-size: x-small;
+	text-decoration: underline;
+}

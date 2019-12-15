@@ -1,0 +1,31 @@
+.NoteDetail{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.NoteDetail >h3 {
+	margin: 0px 0px
+}
+
+.NoteDetail > ul {
+	padding-left: 20px;
+}
+
+#new-button.hidden {
+	display: none;
+}
+
+#new-input-text.hidden {
+	display: none;
+}
+
+.note-item-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#delete-button {
+	border-radius: 50%;
+	background: red;
+}
