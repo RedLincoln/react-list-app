@@ -1,6 +1,5 @@
 import * as React from 'react';
 import './NotesWrapper.scss';
-import { ListService, ListItem } from '../../data/ListService';
 import { NotesInfo } from '../NotesInfo';
 import { BrowserRouter as Router, Route }  from 'react-router-dom'
 import { NoteDetail } from '../NoteDetail';

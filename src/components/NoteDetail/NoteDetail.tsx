@@ -47,7 +47,7 @@ export const NoteDetail: React.FC<Props> = ( { match } ) => {
 		const button = event.target;
 		if (button instanceof HTMLButtonElement){	
 			const deleteIndex = button.dataset.itemIndex === undefined ? -1 : +button.dataset.itemIndex;
-			if (items !== undefined && items.length > deleteIndex && deleteIndex != -1){
+			if (items !== undefined && items.length > deleteIndex && deleteIndex !== -1){
 				items.splice(deleteIndex, 1);	
 				setItems([...items]);
 			}
